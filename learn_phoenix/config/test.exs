@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :learn_phoenix, LearnPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "brianemory",
+  password: "",
   database: "learn_phoenix_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
